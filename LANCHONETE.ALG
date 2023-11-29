@@ -1,0 +1,35 @@
+Algoritmo "Lanchonete"
+
+
+Var
+
+   codigo, quantidade: inteiro
+   valorPago: real
+
+
+
+Inicio
+
+      escreva ("Código do produto comprado:")
+      leia (codigo)
+      escreva ("Quantidade comprada:")
+      leia (quantidade)
+
+      escolha codigo
+
+      caso 1
+           valorPago <- 5.0 * quantidade
+      caso 2
+           valorPago <- 3.50 * quantidade
+      caso 3
+           valorPago <- 4.80 * quantidade
+      caso 4
+           valorPago <- 8.90 * quantidade
+      caso 5
+           valorPago <- 7.32 * quantidade
+      fimescolha
+      
+      escreva ("Valor a pagar: ", valorPago:4:2)
+
+
+Fimalgoritmo
